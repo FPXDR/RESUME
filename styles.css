@@ -70,7 +70,7 @@ nav{
 }
 
 .Topnav a:hover{
-    color: rgb(214, 21, 214);
+    color: rgb(17, 177, 110);
 }
 
 .Topnav a{
@@ -183,7 +183,7 @@ nav{
     grid-column: 6;
     display: grid;
     align-items: left;
-    padding-right: 20%;
+    padding-right: 11%;
     margin: 5%;
 }
 
@@ -204,7 +204,7 @@ nav{
     text-align: center;
     margin-top: 0;
     margin-right: 0;
-    padding: 0% 2%;
+    padding: 0% 1%;
 }
 
 
