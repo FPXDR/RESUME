@@ -121,9 +121,9 @@ nav{
 }
 
 .icons{
-    margin: 12%;
+    margin: 10%;
     display: flex;
-    margin-left: 196%;
+    margin-left: 155%;
 }
 
 .icon{
@@ -136,33 +136,36 @@ nav{
 }
 
 .Picture{
-    grid-column: 4;
-    margin-left: 120%;
+    grid-column: 6;
+    padding-left: 25%;
 }
 
 .Picture img{
     height: 400px;
-    width: 400px;
-    border-radius: 50% / 45%;
+    width: 420px;
+    border-radius: 50% 50% / 55% 50%;
 }
 
 .skill{
-    grid-column: 3 / 3;
+    grid-column: 2 / 6;
+    padding-left: 20%;
 }
 
-.infoskills{
-    grid-column: 1 / span 2;
-    display: flex;
-    margin: 50px;
+.frontend{
+    grid-column: 1;
+    display: grid;
+    align-items: left;
+    padding-left: 5%;
+    margin: 5%;
 }
 
 .topinfo{
     font-family: "Lato",sans-serif;
     color: #e20808;
-    font-size: 2.5rem;
-    display: flex;
-    margin-left: 20%;
-
+    font-size: 3rem;
+    display: grid;
+    align-items: stretch;
+    padding: 0 1%;
 }
 
 .infoskill1{
@@ -170,30 +173,38 @@ nav{
     color: #FFFFFF;
     font-size: 1.5rem;
     text-align-last: left;
-    text-align: start;
+    text-align: center;
+    margin-top: 0;
+    margin-right: 0;
+    padding: 1% 0%;
 }
 
 .backend{
     grid-column: 6;
-    display: flex;
-    margin: 50px;
+    display: grid;
+    align-items: left;
+    padding-right: 20%;
+    margin: 5%;
 }
 
 .topinfo2{
     font-family: "Lato",sans-serif;
     color: #1459d8;
     font-size: 3rem;
-    display: flex;
+    display: grid;
+    align-items: stretch;
+    padding: 0 1%;
 }
 
 .infoskill2{
-    display: flex;
     font-family: "Lato",sans-serif;
     color: #FFFFFF;
     font-size: 1.5rem;
     text-align-last: left;
     text-align: center;
-
+    margin-top: 0;
+    margin-right: 0;
+    padding: 0% 2%;
 }
 
 
