@@ -177,6 +177,7 @@ nav{
     margin-top: 0;
     margin-right: 0;
     padding: 1% 0%;
+    text-transform: capitalize;
 }
 
 .backend{
@@ -205,6 +206,7 @@ nav{
     margin-top: 0;
     margin-right: 0;
     padding: 0% 1%;
+    text-transform: capitalize;
 }
 
 
