@@ -121,30 +121,31 @@ nav{
 }
 
 .icons{
-    margin: 10%;
+    grid-column: 6;
     display: flex;
-    margin-left: 155%;
+    margin: 10%;
+    padding-left: 185%;
 }
 
 .icon{
-    margin-right:30px;
+    margin-right:20px;
 }
 
 .icon img{
     width: 70px;
     height: 70px;
-    
 }
 
 .Picture{
-    grid-column: 6;
-    padding-left: 25%;
+    grid-column: 3 / 6;
+    padding-left: 150%;
+    display: flex;
 }
 
 .Picture img{
     height: 400px;
-    width: 420px;
-    border-radius: 50% 50% / 55% 50%;
+    width: 400px;
+    border-radius: 45% / 50%;
 }
 
 .skill{
@@ -208,6 +209,51 @@ nav{
     margin-right: 0;
     padding: 0% 1%;
     text-transform: capitalize;
+}
+
+/* Responsive Website */
+@media  only screen and (max-width:1100px){
+    .icon img{
+        height: 220px;
+        width: auto;
+    }
+
+    .info {
+        grid-column: 1 / span 2;
+    }
+
+    .content_font1, .content_font2, .content_font3, .content_font4{
+        font-size: 2rem;
+    }
+    .Picture {
+        height: 200px;
+        width: auto;
+        border-radius: auto;
+    }
+
+    .skill {
+        grid-column: 2 / 6;
+    }
+    
+    .frontend{
+        grid-column: 1;
+    }
+
+    .backend{
+        grid-column: 6;
+    }
+}
+
+@media  only screen and (max-width:850px) {
+    .info{
+        grid-column: 1 / span 2;
+    }
+    .icons{
+        flex-direction: row;
+    }
+    .content_font1, .content_font2, .content_font3, .content_font4{
+        font-size: 2rem;
+    }
 }
 
 
