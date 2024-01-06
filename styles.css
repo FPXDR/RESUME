@@ -248,9 +248,11 @@ nav{
     .info{
         grid-column: 1 / span 2;
     }
+    
     .icons{
         flex-direction: row;
     }
+
     .content_font1, .content_font2, .content_font3, .content_font4{
         font-size: 2rem;
     }
