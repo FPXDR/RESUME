@@ -214,7 +214,7 @@ nav{
 /* Responsive Website */
 @media  only screen and (max-width:1100px){
     .icon img{
-        height: 220px;
+        height: 100px;
         width: auto;
     }
 
@@ -226,9 +226,8 @@ nav{
         font-size: 2rem;
     }
     .Picture {
-        height: 200px;
+        height: 300px;
         width: auto;
-        border-radius: auto;
     }
 
     .skill {
@@ -251,10 +250,27 @@ nav{
     
     .icons{
         flex-direction: row;
+        padding-right: 30%;
     }
 
     .content_font1, .content_font2, .content_font3, .content_font4{
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    .Picture {
+        height: 300px;
+        width: auto;
+    }
+
+    .skill {
+        flex-direction: column;
+    }
+    
+    .frontend{
+        flex-direction: column;
+    }
+
+    .backend{
+        flex-direction: column;
     }
 }
 
