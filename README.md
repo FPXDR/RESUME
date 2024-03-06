@@ -1,0 +1,2 @@
+// RESUME PROJECT Learn  Full Stack DEV (HTML CSS NodeJS Express EJS MySQL) //
+// MAKE PROJECT HAVE FUN //
